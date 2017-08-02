@@ -5,3 +5,7 @@ function calculate() {
 function erase() {
     document.calc.output.value = '';
 }
+
+function entries(s) {
+    document.calc.output.value+=s;
+}
